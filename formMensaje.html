@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="css/css.css" TYPE="text/css" MEDIA=screen>
+    <link rel="icon" type="image/png" href="img/GATOU.png">
+    <title>Formulario mensajito<3</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/GATOU.png" alt="">
+        <div>Nuestra Pagina Web <3</div>
+    </header>
+    <nav>
+        <div class="navhor">
+            <ul>
+                <li><a href="mensajes.php"> Volver </a></li>	
+
+            </ul>
+        </div>
+
+        <div id="menu">
+			<button id="botonazo"> <img src="img/menu.png"width="30px"> </button>
+			<div id="down">
+                <a href="mensajes.php"> Volver </a>
+
+			</div>
+		</div>
+    </nav>
+    <main>
+        <article>
+            <div>
+                <img src="img/carta.png" class="gatomail">
+                <form action="insertar.php" method="post">
+                    <label>Mensaje: </label>
+                    <br><textarea name="texto" style="height: 118px; width: 311px; padding: 5px;" required></textarea><br>
+
+                    <br>
+
+                    <label>Escrito por:</label> 
+                    <br>
+                    <select name="usuario" style="height: 30px; width: 311px; padding: 5px;" required>
+                        <option value="Gaby de Nicolas"selected>Gaby de Nicolas</option>
+                        <option value="Nicolas de Gaby">Nicolas de Gaby</option>
+                    </select>
+        
+                    <br><br>
+
+                    <input type="submit" class="btnMensaje">
+
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class=titulo>Nicolas - Gaby - Nata</div>
+        <br>
+        <div>Familia Madrugar <3</div>
+    </footer>
+</body>
+</html>
